@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.intretech.app.practice">
+<application>
+<activity android:name=".Test1Activity"></activity>
+    <activity android:name=".Test2Activity" android:launchMode="singleTask"></activity>
+    <activity android:name=".Test3Activity"></activity>
+    <activity android:name=".Test4Activity"></activity>
+</application>
+    </manifest>

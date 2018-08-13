@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.intretech.app.mvvm">
+<application>
+<activity android:name=".main.MainActivity"></activity>
+
+</application>
+    </manifest>

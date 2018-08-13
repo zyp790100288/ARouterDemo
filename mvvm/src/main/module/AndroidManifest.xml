@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.intretech.app.mvvm" >
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!--android:name属性——是用来设置所有activity属于哪个application的，默认是android.app.Application。-->
+    <application
+        android:name=".main.MyApplication"
+        android:allowBackup="true"
+        android:label="zxing"
+        android:supportsRtl="true"
+        android:theme="@style/mvvm_AppTheme"
+        >
+         <activity android:name="com.intretech.app.mvvm.main.MainActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+
+
+
+
+    </application>
+</manifest>
